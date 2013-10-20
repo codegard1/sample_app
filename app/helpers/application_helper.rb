@@ -9,4 +9,9 @@ module ApplicationHelper
 			"#{base_title} | #{page_title}"
 		end
 	end
+	
+	def print_copyright
+		year = '2013'
+		puts 'Copyright' + year
+	end
 end
